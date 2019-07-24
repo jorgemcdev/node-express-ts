@@ -2,7 +2,15 @@
   "name": "node-express-ts",
   "version": "1.0.0",
   "description": "Start a Node Express App + TypeScript + TSLint + Prettier + Airbnb + Husky",
-  "keywords": ["node", "express", "typescript", "tslint", "prettier", "airbnb", "husky"],
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "tslint",
+    "prettier",
+    "airbnb",
+    "husky"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "$(npm bin)/tsc",
@@ -21,7 +29,11 @@
   },
   "homepage": "https://github.com/jorgemcdev/node-express-ts#readme",
   "devDependencies": {
+    "@types/express": "^4.17.0",
     "ts-node-dev": "^1.0.0-pre.40",
     "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
