@@ -1,0 +1,27 @@
+{
+  "name": "node-express-ts",
+  "version": "1.0.0",
+  "description": "Start a Node Express App + TypeScript + TSLint + Prettier + Airbnb + Husky",
+  "keywords": ["node", "express", "typescript", "tslint", "prettier", "airbnb", "husky"],
+  "main": "index.js",
+  "scripts": {
+    "build": "$(npm bin)/tsc",
+    "start": "NODE_ENV=production node ./build/index.js",
+    "dev": "$(npm bin)/ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemcdev/node-express-ts.git"
+  },
+  "author": "jorgemcdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemcdev/node-express-ts/issues"
+  },
+  "homepage": "https://github.com/jorgemcdev/node-express-ts#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3"
+  }
+}
